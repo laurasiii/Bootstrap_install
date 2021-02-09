@@ -30,6 +30,16 @@ p{
   padding: 7% 15%; /*3 % to the top, 15 left and right and 7 bottom*/
 }
 
+/*Sections*/
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
 
 /*Navigation Bar */
 .navbar {
@@ -60,14 +70,9 @@ p{
 
 /*Title section*/
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
 #title .container-fluid{
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /*Title image*/
@@ -82,7 +87,6 @@ p{
 /*Features Section*/
 
 #features{
-  background-color: #fff;
   position: relative;
 }
 
@@ -108,7 +112,6 @@ p{
 
 #testimonials{
   background-color: #ef8172;
-  color: #fff;
 }
 
 .testimonial-text{
@@ -146,13 +149,6 @@ p{
 
 .pricing-column{
   padding: 3% 2%;
-}
-
-/*CTA section */
-
-#cta{
-  background-color: #ff4c68;
-  color: #fff;
 }
 
 /*Footer section*/
